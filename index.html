@@ -28,10 +28,22 @@
       }
       img {
         max-width: 100%;
-        margin-bottom: 30px;
       }
       .social {
         margin: 20px 0;
+      }
+      .margin-bottom {
+        margin-bottom: 20px;
+      }
+      @media only screen and (max-width: 600px) {
+        h1 {
+          font-size: 40pt;
+          line-height: 40pt;
+        }
+        h2 {
+          font-size: 25pt;
+          line-height: 25pt;
+        }
       }
     </style>
 
@@ -49,10 +61,12 @@
   <body>
     <h1>DOMINIC DID IT</h1>
     <h2>Are <strong>you</strong> bored of following the rules?</h2>
-    <p>Well, we’ve got the product for you! With this simple t-shirt you too will be doing whatever the fuck you want in no time! Simply wear it whereever you want and should you get questioned, just point and your chest. It's simple an effective!</p>
+    <p>Well, we’ve got the product for you! With this simple t-shirt you too will be doing whatever the fuck you want in no time! Simply wear it where ever you want and should you get questioned, just point and your chest. It's simple an effective!</p>
     <div class="social sharethis-inline-share-buttons"></div>
-    <img src="./worn.jpg" />
+    <img src="./worn.jpg" class="margin-bottom" />
     <img src="./shirt.jpg" />
+    <p>And we get it. As a concerned parent, you don't want to risk leaving your kid at home when they too could be breaking the rules. To avoid confusion, we recommend this great addition to your kids lockdown attire!</p>
+    <img src="./baby.jpg">
     <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5ecd45d1e15c0d001255507f&product=inline-share-buttons" async="async"></script>
   </body>
 </html>
